@@ -28,6 +28,21 @@ let newNames = myName(15, 100);
 console.log(newNames);
 
 
+let multiLine = () => 51;
+let multiLineResult = multiLine(0);
+console.log("Multi Line result", multiLineResult);
+
+let multiply81 = (x, y) => {
+    let positive = x + y;
+    let negative = x - y;
+    let result = positive * negative;
+    return result;
+} 
+let myResult81 = multiply81( 15, 5);
+console.log( "Next level", myResult81);
+
+
+
 //function without 2nd value no:1
 function myName1(nam5, nam6){
     if (nam6 == undefined);
